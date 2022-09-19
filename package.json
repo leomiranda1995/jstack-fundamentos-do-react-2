@@ -6,12 +6,12 @@
   "author": "Leonardo da Silva Miranda <leomiranda1995@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "babel src -d transpiled && webpack --mode=development"
+    "build": "webpack --mode=development"
   },
   "devDependencies": {
-    "@babel/cli": "^7.18.10",
     "@babel/core": "^7.19.1",
     "@babel/preset-env": "^7.19.1",
+    "babel-loader": "^8.2.5",
     "clean-webpack-plugin": "^4.0.0",
     "html-webpack-plugin": "^5.5.0",
     "webpack": "^5.74.0",

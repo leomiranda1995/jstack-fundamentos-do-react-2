@@ -60,3 +60,9 @@ Desinstalar a interface por linha de comando pois não vamos mais utilizar
 
 Instalar dependências do babel loader
   > yarn add babel-loader -D
+
+# Criando um servidor local de desenvolvimento
+
+Automatizar a dinâmica do build
+
+  > yarn add webpack-dev-server -D

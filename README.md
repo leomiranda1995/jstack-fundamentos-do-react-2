@@ -49,3 +49,14 @@ Instalação do plugin, para injetar a tag script dinamicamente no html com o ar
 
 Instalação do plugin, para limpar a pasta do build
   > yarn add clean-webpack-plugin -D
+
+
+# Entendendo e configurando Loaders
+(Loaders servem para pegar tudo que o webpack não entende e transforma em algo que entenda)
+
+
+Desinstalar a interface por linha de comando pois não vamos mais utilizar
+  > yarn remove @babel/cli
+
+Instalar dependências do babel loader
+  > yarn add babel-loader -D

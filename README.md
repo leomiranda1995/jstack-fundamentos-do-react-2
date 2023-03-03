@@ -29,3 +29,23 @@ Instalação da biblioteca para o babel entender o React
 
 Instalação do React e React-Dom
   > yarn add react@^17.0.2 react-dom@^17.0.2
+
+
+# Gerando o Bundle com o WebPack
+
+Configurar o processo de geração do bundle, que é o processo onde o webpack pega todos os arquivos que a gente desenvolveu, vai juntar todos em um mesmo arquivo javascript
+
+Instalação de 2 dependências
+  -> webpack: Principais funcionalidades do webpack
+  -> webpack-cli: Interface por linha de comando o webpack
+
+  > yarn add webpack webpack-cli -D
+
+Criar o arquivo de configuração na raíz do projeto
+webpack.config.js
+
+Instalação do plugin, para injetar a tag script dinamicamente no html com o arquivo correto
+  > yarn add html-webpack-plugin -D
+
+Instalação do plugin, para limpar a pasta do build
+  > yarn add clean-webpack-plugin -D

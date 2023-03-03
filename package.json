@@ -1,0 +1,21 @@
+{
+  "name": "jstack-fundamentos-do-react-2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/leomiranda1995/jstack-fundamentos-do-react-2.git",
+  "author": "Leonardo da Silva Miranda <leomiranda1995@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d build"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-react": "^7.18.6"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  }
+}

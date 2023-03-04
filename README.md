@@ -77,3 +77,8 @@ Automatizar a dinâmica do build
 # O que são Props?
 
 # Prop children
+
+# Definindo tipos para as props
+
+Instalação da biblioteca de tipagens
+  > yarn add prop-types

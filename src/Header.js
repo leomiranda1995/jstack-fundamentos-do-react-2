@@ -1,4 +1,5 @@
 import React, { Children } from 'react';
+import PropTypes from 'prop-types';
 
 export default function Header({ title, children }) {
   return (
@@ -8,3 +9,12 @@ export default function Header({ title, children }) {
     </>
   )
 }
+
+Header.propTypes = {
+  title: PropTypes.string,
+  children: PropTypes.node,
+};
+
+Header.defaultProps = {
+  title: `JStack's Blog`,
+};

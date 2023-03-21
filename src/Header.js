@@ -6,7 +6,7 @@ export default function Header(props) {
   return (
     <>
       <h1>{props.title}</h1>
-      <Button theme={props.theme} onClick={props.onToggleTheme}>
+      <Button onClick={props.onToggleTheme}>
         Mudar tema
       </Button>
       {props.children}
@@ -15,7 +15,6 @@ export default function Header(props) {
 }
 
 Header.propTypes = {
-  theme: PropTypes.string.isRequired,
   onToggleTheme: PropTypes.func.isRequired,
   title: PropTypes.string,
   children: PropTypes.node,

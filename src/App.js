@@ -1,7 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, createContext } from 'react';
 
 import Post from './Post';
 import Header from './Header';
+
+export const ThemeContext = createContext('dark');
 
 function App() {
   const [theme, setTheme] = useState('dark');
@@ -37,9 +39,8 @@ function App() {
   }
 
   return (
-    <>
+    <ThemeContext.Provider value={theme}>
       <Header
-        theme={theme}
         onToggleTheme={handleToggleTheme}
       >
         <h2>
@@ -55,10 +56,9 @@ function App() {
           key={post.id}
           onRemove={handleRemovePost}
           post={post}
-          theme={theme}
         />
       ))}
-    </>
+    </ThemeContext.Provider>
   )
 }
 

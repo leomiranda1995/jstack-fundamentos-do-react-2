@@ -103,4 +103,9 @@ Instalação dos loaders de CSS
   css-loader: converte a sintaxe para o javascript entender o código css
   style-loader: injeta o código css no nosso HTML
 
-  # CSS Modules
+# CSS Modules
+
+# SASS e SASS Modules
+  > yarn add sass sass-loader -D
+  sass: cor da biblioteca
+  sass-loader: o que o webpack vai rodar quando encontrar a extensão do sass

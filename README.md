@@ -102,3 +102,5 @@ Instalação dos loaders de CSS
   > yarn add css-loader style-loader -D
   css-loader: converte a sintaxe para o javascript entender o código css
   style-loader: injeta o código css no nosso HTML
+
+  # CSS Modules

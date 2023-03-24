@@ -109,3 +109,5 @@ Instalação dos loaders de CSS
   > yarn add sass sass-loader -D
   sass: cor da biblioteca
   sass-loader: o que o webpack vai rodar quando encontrar a extensão do sass
+
+# Classes dinâmicas

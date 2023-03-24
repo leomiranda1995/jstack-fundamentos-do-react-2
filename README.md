@@ -90,3 +90,15 @@ Instalação da biblioteca de tipagens
 # Funções de Callback via Props
 
 # Renderização condicional
+
+# Trabalhando com a Context API
+
+# Inline styles
+
+
+# Trabalhando com arquivos css
+
+Instalação dos loaders de CSS
+  > yarn add css-loader style-loader -D
+  css-loader: converte a sintaxe para o javascript entender o código css
+  style-loader: injeta o código css no nosso HTML

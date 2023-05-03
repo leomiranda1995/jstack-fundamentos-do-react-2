@@ -114,3 +114,5 @@ Instalação dos loaders de CSS
 
 # Introdução ao Styled Components
   > yarn add styled-components
+
+# Criando Styled Components

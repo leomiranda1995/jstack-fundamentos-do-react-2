@@ -122,3 +122,5 @@ Instalação dos loaders de CSS
 # Trabalhando com props em Styled Components
 
 # Definindo vários estilos dentro da mesma função
+
+# Dicas de navegação entre componentes no VSCode

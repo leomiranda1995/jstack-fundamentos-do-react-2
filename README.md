@@ -120,3 +120,5 @@ Instalação dos loaders de CSS
 # Estilizando Componentes com Styled
 
 # Trabalhando com props em Styled Components
+
+# Definindo vários estilos dentro da mesma função

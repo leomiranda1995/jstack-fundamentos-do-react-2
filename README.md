@@ -111,3 +111,6 @@ Instalação dos loaders de CSS
   sass-loader: o que o webpack vai rodar quando encontrar a extensão do sass
 
 # Classes dinâmicas
+
+# Introdução ao Styled Components
+  > yarn add styled-components
